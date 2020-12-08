@@ -1,11 +1,11 @@
-name: A workflow for my Hello World file
+name: A workflow to learn workflow
 on: push
 jobs:
   build:
-    name: Hello world action
+    name: MI BOT
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          MY_NAME: "Mona"
+          MY_NAME: "Naman Jain"
